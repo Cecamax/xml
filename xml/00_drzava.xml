@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE drzava
+
+[
+    <!ELEMENT drzava (naziv, glavniGrad, opis)>
+    <!ATTLIST drzava oznakaDrzave CDATA "">
+    <!ELEMENT naziv (#PCDATA)>
+    <!ELEMENT glavniGrad (#PCDATA)>
+    <!ELEMENT opis (#PCDATA)>
+
+]>
+
+<drzava oznakaDrzave="BS">
+    <naziv>Bosna i HErcegovina</naziv>
+    <glavniGrad>Sarajevo</glavniGrad>
+    <opis>Opis Bosna i hercegovina</opis>
+</drzava>
