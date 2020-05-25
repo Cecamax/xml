@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE automobil
+[
+<!ELEMENT automobil (model, tip, karakteristike)>
+<!ATTLIST automobil proizvodac CDATA "">
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT tip (#PCDATA)>
+<!ELEMENT karakteristike (snaga, vrata)>
+]>
+<!-- Root element: automobili -->
+<automobili>
+    <automobil proizvodac="Opel">
+        <model>Astra</model>
+        <tip>Karavan</tip>
+        <karakteristike>
+        <!-- Snaga u KS -->
+            <snaga>100</snaga>
+            <vrata>5</vrata>
+        </karakteristike>
+    </automobil>
+     <automobil proizvodac="Fiat">
+        <model>Punto</model>
+        <tip>Limuzina</tip>
+        <karakteristike>
+         <!-- Snaga u KS -->
+            <snaga>70</snaga>
+            <vrata>3</vrata>
+        </karakteristike>
+    </automobil>
+    <automobil proizvodac="Volkswagen">
+        <model>Polo</model>
+        <tip>Limuzina</tip>
+        <karakteristike>
+         <!-- Snaga u KS -->
+            <snaga>90</snaga>
+            <vrata>5</vrata>
+        </karakteristike>
+    </automobil>
+</automobili>

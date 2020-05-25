@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<automobili>
+    <automobil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceShemaLocation="automobiliSema.xsd" proizvodac="Opel">
+        <model>Astra</model>
+        <tip>Karavan</tip>
+        <karakteristike>
+        <!-- Snaga u KS -->
+            <snaga>100</snaga>
+            <vrata>5</vrata>
+        </karakteristike>
+    </automobil>
+     <automobil proizvodac="Fiat">
+        <model>Punto</model>
+        <tip>Limuzina</tip>
+        <karakteristike>
+         <!-- Snaga u KS -->
+            <snaga>70</snaga>
+            <vrata>3</vrata>
+        </karakteristike>
+    </automobil>
+    <automobil proizvodac="Volkswagen">
+        <model>Polo</model>
+        <tip>Limuzina</tip>
+        <karakteristike>
+         <!-- Snaga u KS -->
+            <snaga>90</snaga>
+            <vrata>5</vrata>
+        </karakteristike>
+    </automobil>
+</automobili>
